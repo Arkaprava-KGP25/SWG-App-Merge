@@ -49,4 +49,101 @@
 
     </androidx.cardview.widget.CardView>
 
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        app:cardBackgroundColor="@color/teal_200"
+        app:cardCornerRadius="15dp"
+        android:layout_marginLeft="5dp">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/book1"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="130dp"
+            android:fontFamily="@font/exo_semibold"
+            android:text="First Year"
+            android:textSize="20dp"
+            android:textColor="#364356"
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="160dp"
+            android:fontFamily="@font/roboto"
+            android:text="Study Material"
+            android:textSize="15dp"
+            android:textColor="#364356"
+            android:layout_marginBottom="15dp"
+            >
+
+        </TextView>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        app:cardBackgroundColor="@color/teal_200"
+        app:cardCornerRadius="15dp"
+        android:layout_marginLeft="210dp"
+        >
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/book2"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="130dp"
+            android:fontFamily="@font/exo_semibold"
+            android:text="Second Year"
+            android:textSize="20dp"
+            android:textColor="#364356"
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="160dp"
+            android:fontFamily="@font/roboto"
+            android:text="Study Material"
+            android:textSize="15dp"
+            android:textColor="#364356"
+            android:layout_marginBottom="15dp"
+            >
+
+        </TextView>
+    </androidx.cardview.widget.CardView>
+
+
+
 </RelativeLayout>
