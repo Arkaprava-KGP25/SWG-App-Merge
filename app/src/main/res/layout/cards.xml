@@ -1,17 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <androidx.cardview.widget.CardView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/teal_200"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="10dp">
+
+        <ImageView
+            android:layout_width="158dp"
+            android:layout_height="172dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/rectangle">
+
+        </ImageView>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            >
+            android:layout_marginLeft="200dp"
+            android:fontFamily="@font/exo_semibold"
+            android:text="DEPC"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp">
 
         </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/roboto"
+            android:text="Towards the latter half of the Spring Semester, around early March, the form for a branch change will be circulated amongst the first year undergraduate students. Those interested have to fill in programs in decreasing order of preference, and submit the form soon after.
+"
+            android:textSize="12sp"
+            android:layout_marginRight="20dp">
+
+        </TextView>
+
+
     </androidx.cardview.widget.CardView>
 
-</FrameLayout>
+</RelativeLayout>
