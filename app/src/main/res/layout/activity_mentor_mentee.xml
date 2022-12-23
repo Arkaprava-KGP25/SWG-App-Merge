@@ -95,6 +95,33 @@
 
         </TextView>
 
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:layout_marginLeft="@dimen/_105sdp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/exo_semibold"
+                android:padding="@dimen/_5sdp"
+                android:text="Enter your Roll Number"
+                android:textSize="@dimen/_10sdp">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/search"
+                android:layout_gravity="right"
+                android:layout_marginLeft="@dimen/_120sdp">
+
+            </ImageView>
+
+        </androidx.cardview.widget.CardView>
 
 
     </androidx.cardview.widget.CardView>
