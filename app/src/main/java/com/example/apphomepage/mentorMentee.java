@@ -1,13 +1,14 @@
 package com.example.apphomepage;
 
-import android.os.Bundle;
-
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MentorMentee extends AppCompatActivity {
+import android.os.Bundle;
+
+public class mentorMentee extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.mentor_mentee);
+        setContentView(R.layout.activity_mentor_mentee);
     }
 }

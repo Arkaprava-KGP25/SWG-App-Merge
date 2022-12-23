@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         switch (view.getId()){
             case R.id.noticeboard :
-                i = new Intent(this,MentorMentee.class);
+                i = new Intent(this,mentorMentee.class);
                 startActivity(i);
                 break;
         }
