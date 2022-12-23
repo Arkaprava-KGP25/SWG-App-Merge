@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context=".MainActivity">
-
-
-
-
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <ImageView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:src="@drawable/ellipse1"
-        android:scaleType="fitCenter"
+        android:scaleType="fitXY"
         >
 
     </ImageView>
@@ -23,7 +17,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/hamburger"
-        android:paddingLeft="@dimen/_20sdp"
+        android:paddingLeft="@dimen/_28sdp"
         android:paddingTop="40dp">
 
     </ImageView>
@@ -34,7 +28,7 @@
         android:src="@drawable/bell"
         android:paddingTop="@dimen/_40sdp"
         android:layout_gravity="right"
-        android:layout_marginRight="@dimen/_20sdp">
+        android:layout_marginRight="@dimen/_28sdp">
 
     </ImageView>
 
@@ -42,26 +36,26 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="top"
-        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginLeft="@dimen/_29sdp"
         android:layout_marginTop="@dimen/_90sdp"
         android:fontFamily="@font/exo_semibold"
         android:padding="5dp"
         android:text="Student Welfare Group"
         android:textColor="@color/white"
-        android:textSize="@dimen/_19sdp">
+        android:textSize="@dimen/_24sdp">
 
     </TextView>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="top"
-        android:layout_marginLeft="@dimen/_8sdp"
-        android:layout_marginTop="@dimen/_112sdp"
+        android:layout_marginLeft="@dimen/_29sdp"
+        android:layout_marginTop="@dimen/_120sdp"
         android:fontFamily="@font/exo_semibold"
         android:padding="@dimen/_5sdp"
         android:text="IIT KGP"
         android:textColor="@color/white"
-        android:textSize="@dimen/_19sdp">
+        android:textSize="@dimen/_24sdp">
 
     </TextView>
 
@@ -69,13 +63,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="top"
-        android:layout_marginLeft="@dimen/_8sdp"
-        android:layout_marginTop="@dimen/_138sdp"
+        android:layout_marginLeft="@dimen/_29sdp"
+        android:layout_marginTop="@dimen/_150sdp"
         android:fontFamily="@font/exo_semibold"
         android:padding="5dp"
         android:text="Right where you need us"
         android:textColor="@color/white"
-        android:textSize="@dimen/_12sdp">
+        android:textSize="@dimen/_16sdp">
 
     </TextView>
     <ImageView
@@ -84,17 +78,17 @@
         android:src="@drawable/logo"
         android:layout_gravity="right"
         android:layout_marginTop="@dimen/_100sdp"
-        android:layout_marginRight="@dimen/_10sdp">
+        android:layout_marginRight="@dimen/_60sdp">
 
     </ImageView>
 
     <androidx.cardview.widget.CardView
         android:layout_width="@dimen/_140sdp"
         android:layout_height="@dimen/_60sdp"
-         app:cardCornerRadius="@dimen/_10sdp"
+        app:cardCornerRadius="@dimen/_10sdp"
         app:cardBackgroundColor="#BFFDEC"
         android:layout_marginTop="@dimen/_200sdp"
-        android:layout_marginLeft="@dimen/_10sdp">
+        android:layout_marginLeft="@dimen/_90sdp">
 
         <ImageView
             android:layout_width="wrap_content"
@@ -124,7 +118,7 @@
         app:cardBackgroundColor="#BFFDEC"
         android:layout_marginTop="@dimen/_200sdp"
         android:layout_gravity="right"
-        android:layout_marginRight="@dimen/_10sdp">
+        android:layout_marginRight="@dimen/_90sdp">
 
         <ImageView
             android:layout_width="wrap_content"
@@ -147,13 +141,6 @@
 
         </TextView>
     </androidx.cardview.widget.CardView>
-
-
-
-
-
-
-
 
 
 
