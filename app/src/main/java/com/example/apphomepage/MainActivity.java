@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-
+      //code of start for slider defining various things for slider
     RecyclerView recyclerView;
     ArrayList<ParentModelClass> parentModelClassArrayList;
     ArrayList<ChildModelClass> childModelClassArrayList;
@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     ArrayList<ChildModelClass> CDC_Internships;
     ArrayList<ChildModelClass> KnowYourDepartment;
 
-     public CardView noticeboard;
+     public CardView noticeboard; //code of the noticeboard that renders to another activity
 
 
 
@@ -31,8 +31,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        getSupportActionBar().hide();
+        getSupportActionBar().hide(); //hiding action bar for slider
 
+
+
+        //here pasted the code of shubham in which he has taken up two recycler views one in another
         recyclerView=findViewById(R.id.rv_parent);
         childModelClassArrayList=new ArrayList<>();
         CDC_Placements=new ArrayList<>();
@@ -101,7 +104,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         parentAdapter.notifyDataSetChanged();
 
 
-
+       //again the noticeboard activity code i have founf noticeboard page from here
        noticeboard = (CardView)  findViewById(R.id.noticeboard);
 
        noticeboard.setOnClickListener(this);
@@ -112,7 +115,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
 
-
+//onclick card action for the noticeboard view
 
     @Override
     public void onClick(View view) {
