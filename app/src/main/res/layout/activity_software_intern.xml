@@ -75,7 +75,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/_110sdp"
-            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_7sdp"
             android:layout_marginRight="@dimen/_14sdp"
             android:fontFamily="@font/exo_semibold"
             android:text="Devendra Idkwhat"
@@ -88,7 +88,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/_110sdp"
-            android:layout_marginTop="@dimen/_28sdp"
+            android:layout_marginTop="@dimen/_24sdp"
             android:layout_marginRight="@dimen/_14sdp"
             android:fontFamily="@font/exo_semibold"
             android:text="Amazon"
@@ -101,15 +101,23 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/_110sdp"
-            android:layout_marginTop="@dimen/_42sdp"
+            android:layout_marginTop="@dimen/_47sdp"
             android:layout_marginRight="@dimen/_14sdp"
-            android:fontFamily="@font/roboto"
+            android:fontFamily="@font/exo_2"
             android:text="“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis bibendum nulla. Suspendisse lacinia libero eu euismod” "
             android:textColor="#364356"
-            android:textSize="@dimen/_10sdp"
+            android:textSize="@dimen/_9sdp"
             android:textStyle="bold">
 
         </TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            android:src="@drawable/arrow_cdc">
+
+        </ImageView>
     </androidx.cardview.widget.CardView>
 
 
